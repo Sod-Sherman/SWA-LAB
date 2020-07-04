@@ -844,3 +844,45 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-03 12:40:55.450
 !MESSAGE executing callback sts4.classpath.MqjsIHwL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-03 14:26:07.956
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-03 14:26:07.958
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-03 14:26:07.959
+!MESSAGE buffering callback sts4.classpath.MqjsIHwL GreetingService-Mongo false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-03 14:26:07.959
+!MESSAGE executing callback sts4.classpath.MqjsIHwL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-03 14:26:07.983
+!MESSAGE executing callback sts4.classpath.MqjsIHwL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-03 14:26:10.216
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-03 14:26:10.218
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-03 14:26:10.219
+!MESSAGE buffering callback sts4.classpath.MqjsIHwL GreetingService-Mongo false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-03 14:26:10.219
+!MESSAGE executing callback sts4.classpath.MqjsIHwL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-03 14:26:10.246
+!MESSAGE executing callback sts4.classpath.MqjsIHwL SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-07-03 19:21:04.654
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)

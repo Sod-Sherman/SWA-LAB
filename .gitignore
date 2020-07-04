@@ -1,5 +1,6 @@
 target/
 out/
+.metadata/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
